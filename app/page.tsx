@@ -1,9 +1,11 @@
+import Features from "@/components/features-2";
 import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <div>
-      <HeroSection />
+  <div>
+    <HeroSection />
+    <Features />
     </div>
-      );
+  );
 }
